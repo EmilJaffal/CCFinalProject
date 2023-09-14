@@ -7,9 +7,9 @@ My process
   3. Compare LMs
   4. Compare descriptors
   5. Build the ensemble
-     a. Hold aside a portion of the training set (dividing your total data into training-main, training-meta, and test sets).
-     b. After training the individual models on the training-main data, use them to create a NEW dataset based on the training-meta data items.
-     c. The inputs to the metamodel are the outputs from my trained single models {model1, m2, m3} -> band gap.
-     d. Use this new dataset to train the meta model
-     e. Evaluate performances
-       I. Is this any better than just applying each of the models? We’ll find out…
+     - Hold aside a portion of the training set (dividing your total data into training-main, training-meta, and test sets).
+     - After training the individual models on the training-main data, use them to create a NEW dataset based on the training-meta data items.
+     - The inputs to the metamodel are the outputs from my trained single models {model1, m2, m3} -> band gap.
+     - Use this new dataset to train the meta model
+     - Evaluate performances
+     -   Is this any better than just applying each of the models? We’ll find out…
